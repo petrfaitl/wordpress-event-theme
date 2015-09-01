@@ -39,7 +39,7 @@
 			<h6 class="team-member-position"><?php echo $position ?></h6>
 		<?php endif ?>
 		<?php if(!empty($from)): ?>
-			<div class="team-memeber-from"><?php echo $from?></div>
+			<div class="team-member-from"><?php echo $from?></div>
 		<?php endif ?>
 		<?php if(!empty($email)):?>
 			<div><a target="_blank" href="mailto:<?php echo $email ?>" title="<?php printf(__('email %s', 'church-event'), $name)?>"><?php echo $email?></a></div>
@@ -56,5 +56,11 @@
 					<a target="_blank" href="<?php echo $$icon?>" title=""><?php echo do_shortcode('[icon name="'.$icon_name.'"]'); ?></a>
 			<?php endif; endforeach; ?>
 		</div>
+		<?php if(!empty($highlights)): ?>
+			<div class="team-member-highlights team-member-title">Highlights:<br /><em><?php echo $highlights?></em></div>
+		<?php endif ?>
+		<?php if(!empty($about)): ?>
+			<div class="team-member-about team-member-title">About:<br /><em><?php echo $about?></em></div>
+		<?php endif ?>
 	</div>
 </div>
