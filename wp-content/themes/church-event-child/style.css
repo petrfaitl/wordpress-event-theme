@@ -1,0 +1,155 @@
+/*
+Theme Name: Church & Event Child
+Author: Vamtam & Petr
+Author URI: http://vamtam.com
+Template: church-event
+*/
+
+
+
+/*
+
+put your child theme styles here
+
+
+you don't need any @import rules
+
+*/
+
+
+
+@font-face {
+    font-family: 'merriweather_lightregular';
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather_light-webfont.eot');
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather_light-webfont.woff2') format('woff2'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather_light-webfont.woff') format('woff'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather_light-webfont.ttf') format('truetype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather_light-webfont.svg#merriweather_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'merriweatherbold';
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-bold-webfont.eot');
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-bold-webfont.woff2') format('woff2'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-bold-webfont.woff') format('woff'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-bold-webfont.ttf') format('truetype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-bold-webfont.svg#merriweatherbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'merriweatherlight_italic';
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-lightitalic-webfont.eot');
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-lightitalic-webfont.woff2') format('woff2'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-lightitalic-webfont.woff') format('woff'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-lightitalic-webfont.ttf') format('truetype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'merriweatherregular';
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-regular-webfont.eot');
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-regular-webfont.woff2') format('woff2'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-regular-webfont.woff') format('woff'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-regular-webfont.ttf') format('truetype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/merriweather-regular-webfont.svg#merriweatherregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-bold-webfont.eot');
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-bold-webfont.woff') format('woff'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-italic-webfont.eot');
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-italic-webfont.woff2') format('woff2'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-italic-webfont.woff') format('woff'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-italic-webfont.ttf') format('truetype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-regular-webfont.eot');
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-regular-webfont.woff') format('woff'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-semibold-webfont.eot');
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/bebasneue_bold-webfont.eot');
+    src: url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/bebasneue_bold-webfont.woff') format('woff'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/bebasneue_bold-webfont.ttf') format('truetype'),
+         url('http://www.csclubtauranga.nz/wp-content/themes/church-event-child/fonts/bebasneue_bold-webfont.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
