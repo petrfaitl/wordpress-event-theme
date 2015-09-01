@@ -25,6 +25,24 @@ return 	array(
 			'type' => 'text'
 		),
 		array(
+			'name' => __('From','church-event-child'),
+			'id' => 'from',
+			'default' => '',
+			'type' => 'text' 
+		),
+		array(
+			'name' => __('Highlights','church-event-child'),
+			'id' => 'highlights',
+			'default' => '',
+			'type' => 'text'
+		),
+		array(
+			'name' => __('About','church-event-child'),
+			'id' => 'about',
+			'default' => '',
+			'type' => 'text'
+		),
+		array(
 			'name' => __('Link', 'church-event'),
 			'id' => 'url',
 			'default' => '/',
