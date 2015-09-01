@@ -9,6 +9,9 @@ class WPV_Team_Member {
 		extract(shortcode_atts(array(
 			'name' => '',
 			'position' => '',
+			'from' => '',
+			'highlight' => '',
+			'about' => '',
 			'phone' => '',
 			'email' => '',
 			'picture' => '',
