@@ -38,6 +38,9 @@
 		<?php if(!empty($position)): ?>
 			<h6 class="team-member-position"><?php echo $position ?></h6>
 		<?php endif ?>
+		<?php if(!empty($from)): ?>
+			<div class="team-memeber-from"><?php echo $from?></div>
+		<?php endif ?>
 		<?php if(!empty($email)):?>
 			<div><a target="_blank" href="mailto:<?php echo $email ?>" title="<?php printf(__('email %s', 'church-event'), $name)?>"><?php echo $email?></a></div>
 		<?php endif ?>
